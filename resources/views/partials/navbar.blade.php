@@ -4,7 +4,7 @@
             data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"> <a class="nav-link" href="/home"><i class="fas fa-home"></i> Início</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="/"><i class="fas fa-home"></i> Início</a> </li>
                 <li class="nav-item"> <a class="nav-link" href="/photos"><i class="far fa-images"></i> Minhas
                         imagens</a> </li>
                 <li class="nav-item"> <a class="nav-link" href="/photos/new"><i class="fas fa-plus-circle"></i> Nova
