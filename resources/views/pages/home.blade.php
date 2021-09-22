@@ -21,6 +21,17 @@
 
 <section class="container mt-4">
     <div class="row">
+    @if ($photos->isEmpty())
+      <div class="col-12 text-center p-5">
+        <h1 class="display-4 text-secondary">Nenhuma foto cadastrada</h1>
+        <img src="/img/triste.png" alt="">
+        <br><br>
+        <a class="fs-5 text-decoration-none" href="/photos/new">
+          Quero cadastrar uma nova foto
+        </a>
+      </div>
+    @endif
+
       @foreach ($photos as $photo)
           <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card shadow-sm h-100"> <img class="bd-placeholder-img card-img-top"
