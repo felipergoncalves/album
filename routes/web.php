@@ -33,3 +33,7 @@ Route::put('/photos/{id}', [PhotoController::class, 'update']);
 
 //Rota que exclui uma foto do banco de dados
 Route::delete('/photos/{id}',[PhotoController::class, 'destroy']);
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
