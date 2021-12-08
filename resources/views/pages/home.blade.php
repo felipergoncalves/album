@@ -25,10 +25,6 @@
       <div class="col-12 text-center p-5">
         <h1 class="display-4 text-secondary">Nenhuma foto cadastrada</h1>
         <img src="/img/triste.png" alt="">
-        <br><br>
-        <a class="fs-5 text-decoration-none" href="/photos/new">
-          Quero cadastrar uma nova foto
-        </a>
       </div>
     @endif
 
@@ -39,7 +35,7 @@
                 <div class="card-body">
                     <p class="card-text">{{$photo->title}}
                     <div class="d-flex justify-content-between align-items-center"> <small
-                            class="text-muted text-center">Por: Fernando</small> <small
+                            class="text-muted text-center">{{$photo->user->name}}</small> <small
                             class="text-muted text-center">{{$photo->date}}</small> </div>
                 </div>
             </div>

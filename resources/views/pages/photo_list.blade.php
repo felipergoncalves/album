@@ -32,10 +32,6 @@
                   <td colspan="5" class="p-5">
                     <h1 class="display-6 text-secondary">Nenhuma foto cadastrada</h1>
                       <img src="/img/triste.png" alt="">
-                      <br><br>
-                      <a class="fs-5 text-decoration-none" href="/photos/new">
-                        Quero cadastrar uma nova foto
-                      </a>
                   </td>
                 </tr>
               @endif
